@@ -64,4 +64,10 @@ var_dump($num6);
 if(is_int($num6)){
     echo "your variable is int";
 }
+
+$num7=NULL;
+var_dump($num7);
+if(is_null($num7)){
+    echo "your variable is NULL";
+}
 ?>
