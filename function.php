@@ -89,8 +89,41 @@ function singlereturn($num1){
          return ($num1);
     }
     echo multireturn(10,20,40);
+    echo "<br/>";
 
+//dynamic function call
+$val="greeting";
+$val1="morning";
+echo $val;
 
+echo "<br/>";
+function greeting(){
+    return "Hello i am myanmar";
+}
+
+function morning(){
+    return "hay i am morning";
+}
+echo morning();
+echo "<br/>";
+echo greeting();
+echo "<br/>";
+echo $val();
+echo "<br/>";
+echo $val1();
+
+echo "<hr/>";
+
+$num1="doit";
+function doit(){
+    return "we love kwe phyo";
+}
+
+if(function_exists($num1)){
+   echo "Yes,your valriable had used in function";
+}else{
+   echo "NO,your variable is not in function";
+}
 
 
 
