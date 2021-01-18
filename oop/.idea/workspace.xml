@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d36438e0-d03e-45fb-b0ce-cc0de25760fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/oop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_destructor.php" beforeDir="false" afterPath="$PROJECT_DIR$/class_destructor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +11,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composerautoload/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/composerautoload/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1lXv4KkjXNp7mQ9fHjiKbkFlO3q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -29,9 +35,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dltwdphpbatch1\oop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dltwdphpbatch1\oop\namespace\app" />
+      <recent name="C:\xampp\htdocs\dltwdphpbatch1\oop\composerautoload\info\news" />
+      <recent name="C:\xampp\htdocs\dltwdphpbatch1\oop\composerautoload\app" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -43,6 +61,18 @@
       <updated>1607756070906</updated>
       <workItem from="1607756070996" duration="9280000" />
       <workItem from="1607840621353" duration="8962000" />
+      <workItem from="1608352776264" duration="2133000" />
+      <workItem from="1608359713053" duration="11095000" />
+      <workItem from="1608446061286" duration="6684000" />
+      <workItem from="1608868463648" duration="557000" />
+      <workItem from="1608906585921" duration="2039000" />
+      <workItem from="1608965044355" duration="5747000" />
+      <workItem from="1609050859191" duration="7322000" />
+      <workItem from="1609060217864" duration="2447000" />
+      <workItem from="1609158194779" duration="519000" />
+      <workItem from="1609213671513" duration="3937000" />
+      <workItem from="1609657480213" duration="7583000" />
+      <workItem from="1610174221996" duration="6584000" />
     </task>
     <servers />
   </component>
@@ -60,5 +90,20 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/composerautoload/app/auth/class_auth.php</url>
+          <line>9</line>
+          <properties>
+            <option name="className" value="\class_auth" />
+            <option name="methodName" value="accessinfo" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

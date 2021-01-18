@@ -1,5 +1,5 @@
 <?php
-//OOP Concept ( Object Oriented Programming )
+OOP Concept ( Object Oriented Programming )
 
 //-Defining Class
 //-Class inheritance
@@ -77,3 +77,24 @@ echo "<hr/>";
 echo "This is Japan cars";
 $obj->japancars($arrjpcars);
 $obj->beautyprint();
+echo "<hr/>";
+echo "<br/>";
+require_once "anonymousfunction.php";
+require_once "arraywalk.php";
+require_once "datatypechecking.php";
+require_once "datatypecasting.php";
+require_once "objectcasting.php";
+require_once "returndatatype.php";
+require_once "class_magicgetandset.php";
+require_once "serializeandunserialize.php";
+require_once "class_magicsleepandwakeup.php";
+require_once "class_magicissetandunset.php";
+require_once "class_magiccallandcallstatic.php";
+require_once "class_staticmodifier.php";
+require_once "class_magictostringandinvoke.php";
+require_once "class_databinding.php";
+require_once "class_abstractmethod.php";
+require_once "class_constantvariable.php";
+require_once "variadic.php";
+require_once "coalesce.php";
+require_once "callbackfunction.php";
